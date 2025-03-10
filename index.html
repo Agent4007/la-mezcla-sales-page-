@@ -124,18 +124,19 @@
 
         <section class="order-form">
             <h2>Order Now for Just $4.50 + Shipping</h2>
-            <form action="https://formspree.io/f/{YOUR_FORM_ID}" method="POST">
-                <label for="name">Full Name:</label>
-                <input type="text" id="name" name="name" required>
-
-                <label for="email">Email Address:</label>
-                <input type="email" id="email" name="email" required>
-
-                <label for="address">Shipping Address:</label>
-                <textarea id="address" name="address" rows="3" required></textarea>
-
-                <label for="quantity">Quantity:</label>
-                <input type="number" id="quantity" name="quantity" value="1" min="1" required>
+           <!-- modify this form HTML and place wherever you want your form -->
+<form
+  action="https://formspree.io/f/xpwpzzek"
+  method="POST"
+>
+  <label>
+    Your email:
+    <input type="email" name="email">
+  </label>
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
 
                 <label>
                     <input type="checkbox" id="allergy-check" name="allergy-check" required>
