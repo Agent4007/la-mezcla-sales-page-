@@ -1,1 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Mezcla - Natural Pain Relief & Aromatherapy</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #FEF9EF;
+            margin: 0;
+            padding: 0;
+            color: #333333;
+        }
+        .container {
+            max-width: 800px;
+            margin: 30px auto;
+            background: #ffffff;
+            border: 3px solid #FFB703;
+            border-radius: 12px;
+            padding: 20px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: #FFB703;
+            text-align: center;
+        }
+        header p {
+            text-align: center;
+            font-weight: bold;
+        }
+        section {
+            margin: 20px 0;
+            padding: 15px;
+        }
+        .ingredient, .how-to-use, .order-form, .reviews {
+            background-color: #FFEBB3;
+            border-left: 5px solid #219EBC;
+            padding: 15px;
+            border-radius: 8px;
+        }
+        label, input, textarea {
+            display: block;
+            width: 100%;
+            margin-top: 5px;
+        }
+        input, textarea {
+            padding: 8px;
+            border: 1px solid #FFB703;
+            border-radius: 4px;
+        }
+        button {
+            background-color: #219EBC;
+            color: #ffffff;
+            padding: 12px;
+            width: 100%;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 18px;
+            margin-top: 15px;
+        }
+        button:hover {
+            background-color: #197A8C;
+        }
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 14px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🌿 Discover the Power of Nature with La Mezcla 🌿</h1>
+            <p>Your All-in-One Aromatherapy and Pain Relief Solution</p>
+        </header>
 
+        <section class="allergy-check">
+            <h2>Are You Allergic to Any of These Natural Ingredients?</h2>
+            <p>Please confirm if you are allergic to:</p>
+            <ul>
+                <li>✅ Geranium</li>
+                <li>✅ Lavender</li>
+                <li>✅ Coconut Oil</li>
+                <li>✅ Peppermint</li>
+            </ul>
+            <p><strong>If you are NOT allergic, continue below to order.</strong></p>
+        </section>
+
+        <section class="benefits">
+            <h2>Why Choose La Mezcla?</h2>
+            <div class="ingredient">
+                <h3>Peppermint Oil</h3>
+                <p>Relieves muscle pain, headaches, and fatigue. Also enhances focus.</p>
+            </div>
+
+            <div class="ingredient">
+                <h3>Lavender Oil</h3>
+                <p>Reduces stress, anxiety, and insomnia while easing muscle tension.</p>
+            </div>
+
+            <div class="ingredient">
+                <h3>Geranium Oil</h3>
+                <p>Improves circulation, reduces swelling, and eases nerve pain.</p>
+            </div>
+
+            <div class="ingredient">
+                <h3>Coconut Oil</h3>
+                <p>Moisturizes the skin and enhances absorption of essential oils.</p>
+            </div>
+        </section>
+
+        <section class="how-to-use">
+            <h2>How to Use La Mezcla</h2>
+            <ol>
+                <li>Apply a few drops directly to the affected area for pain relief.</li>
+                <li>Rub it on your temples or wrists for stress relief and mental clarity.</li>
+                <li>Add a few drops to a diffuser for a calming atmosphere.</li>
+            </ol>
+        </section>
+
+        <section class="order-form">
+            <h2>Order Now for Just $4.50 + Shipping</h2>
+            <form action="https://formspree.io/f/{YOUR_FORM_ID}" method="POST">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="address">Shipping Address:</label>
+                <textarea id="address" name="address" rows="3" required></textarea>
+
+                <label for="quantity">Quantity:</label>
+                <input type="number" id="quantity" name="quantity" value="1" min="1" required>
+
+                <label>
+                    <input type="checkbox" id="allergy-check" name="allergy-check" required>
+                    I confirm I am NOT allergic to geranium, lavender, coconut oil, or peppermint.
+                </label>
+
+                <button type="submit">🛒 Order Now - $4.50 + Shipping</button>
+            </form>
+        </section>
+
+        <section class="reviews">
+            <h2>Why Our Customers Love La Mezcla</h2>
+            <p>⭐️⭐️⭐️⭐️⭐️ "This blend has helped me with my chronic back pain more than any other product I’ve tried!" – Maria R.</p>
+            <p>⭐️⭐️⭐️⭐️⭐️ "La Mezcla is now part of my bedtime routine. It's so calming and helps me unwind after a long day." – James T.</p>
+        </section>
+
+        <footer>
+            <p>✅ 30-Day Satisfaction Guarantee | 📦 Fast Shipping | 🌍 100% Natural Ingredients</p>
+        </footer>
+    </div>
+</body>
+</html>
